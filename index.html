@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Coach Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Health Coach</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#retreats">Retreats</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Welcome to my health coaching website. I'm passionate about helping people lead healthier lives through proper nutrition and fitness.</p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>
+          <h3>Weight Loss Programs</h3>
+          <p>Customized weight loss programs tailored to your individual needs and goals.</p>
+          <button class="register-button" data-service="Weight Loss Program">Register Now</button>
+        </li>
+        <li>
+          <h3>Gut Health Diets</h3>
+          <p>Specialized diets to improve gut health and alleviate digestive issues.</p>
+          <button class="register-button" data-service="Gut Health Diet">Register Now</button>
+        </li>
+        <li>
+          <h3>Health Retreats</h3>
+          <p>Join us for rejuvenating health retreats at various locations.</p>
+          <button class="register-button" data-service="Health Retreat">Register Now</button>
+        </li>
+        <li>
+          <h3>Healthy Meals</h3>
+          <p>Delicious and balanced meals curated to support your health goals.</p>
+          <button class="register-button" data-service="Healthy Meals">Register Now</button>
+        </li>
+        <li>
+          <h3>Nature Cure Sessions</h3>
+          <p>Online and offline sessions on nature cure and adopting a healthy lifestyle.</p>
+          <button class="register-button" data-service="Nature Cure Sessions">Register Now</button>
+        </li>
+      </ul>
+    </section>
+
+    <section id="retreats">
+      <h2>Retreat Venues</h2>
+      <ul>
+        <li>New York, USA</li>
+        <li>Bali, Indonesia</li>
+        <li>Swiss Alps, Switzerland</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you're interested in improving your health and wellness, feel free to reach out to me using the form below.</p>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Health Coach</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
